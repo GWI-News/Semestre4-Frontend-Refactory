@@ -12,6 +12,13 @@
           "gwi-news"
         ]
       }
+    },
+    "gwinews-teste": {
+      "hosting": {
+        "gwinews-teste": [
+          "gwinews-teste"
+        ]
+      }
     }
   },
   "etags": {},
