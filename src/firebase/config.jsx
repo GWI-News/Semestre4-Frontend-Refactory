@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth"
 let firebaseConfig = {}
 const environment = window.location.hostname
 
-if (environment.includes('e715f')) {
+if (environment.includes('gwi-news')) {
     firebaseConfig = {
         apiKey: import.meta.env.REACT_APP_PROD_API_KEY,
         authDomain: import.meta.env.REACT_APP_PROD_AUTH_DOMAIN,
