@@ -1,0 +1,6 @@
+.headerContainer {
+    min-width: 320px;
+    height: 12vh;
+    background-color: #EBEBEB;
+    border-bottom: 0.5rem solid #1D4988;
+}
