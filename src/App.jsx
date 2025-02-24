@@ -4,7 +4,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AuthProvider } from './context/AuthContext'
 import Header from './components/Header/Header'
-import NewsDashboard from './components/NewsDashboard/NewsDashboard'
+import NewsDashboard from './pages/NewsDashboard/NewsDashboard'
 
 
 function App() {

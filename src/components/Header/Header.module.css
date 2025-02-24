@@ -1,6 +1,10 @@
 .headerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     min-width: 320px;
-    height: 12vh;
+    height: 12svh;
     background-color: #EBEBEB;
     border-bottom: 0.5rem solid #1D4988;
 }
