@@ -20,7 +20,7 @@
       ]
     },
     {
-      "target": "gwinews-teste",
+      "target": "gwinews-test",
       "public": "dist",
       "ignore": [
         "firebase.json",
