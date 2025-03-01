@@ -1,0 +1,33 @@
+.newsPageContainer {
+    margin-top: 12svh;
+    min-height: 88svh;
+    background-color: #F9F9F9;
+}
+
+.newsSubtitle {
+    margin: 1rem 0;
+    text-align: justify;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.newsParagraph {
+    text-align: justify;
+}
+
+.newsMetaInfo {
+    text-align: start;
+    margin: 0.25rem 0 0;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+@media (min-width: 992px) {
+    .newsSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .newsParagraph {
+        font-size: 1.25rem;
+    }
+}
