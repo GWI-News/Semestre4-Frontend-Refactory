@@ -4,6 +4,7 @@ import { db } from '../../firebase/config';
 import { getDocs, collection } from 'firebase/firestore';
 import { Container } from 'react-bootstrap';
 import NewsCard from '../../components/NewsCard/NewsCard';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const NewsDashboard = () => {
   const [news, setNews] = useState([]);
@@ -68,7 +69,8 @@ const NewsDashboard = () => {
   }
 
   return (
-    <Container fluid className={`${styles.newsDashboardContainer} w-100 p-2 d-flex justify-content-center align-items-start flex-wrap`}>
+    <Container fluid className={`${styles.newsDashboardContainer} w-100 p-2 d-flex justify-content-center align-content-start align-items-start flex-wrap`}>
+      <SearchBar />
       {news.map((newsItem) => (
         <NewsCard key={newsItem.id} newsItem={newsItem} categoryName={verifyCategoryName(newsItem)} subcategoriesNames={verifySubcategoriesNames(newsItem)} />
       ))}
