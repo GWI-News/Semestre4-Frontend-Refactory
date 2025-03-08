@@ -1,0 +1,48 @@
+.searchBarContainer {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.searchBarContainerClosed {
+    z-index: 1000;
+    position: fixed;
+    top: 13svh;
+    left: 100;
+    right: 1rem;
+}
+
+.searchBarContainerOpened {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.searchBarFormControl {
+    width: calc(100% - 3.5rem);
+}
+
+.searchBarFormControl:focus {
+    box-shadow: 0 0 0 .25rem rgb(29, 73, 136, .25);
+}
+
+.searchBarFormButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    color: #1D4988;
+    padding: 0.75rem;
+    border: 1px solid #1D4988;
+    border-radius: 50%;
+}
+
+.searchBarFormButton:hover, .searchBarFormButton:focus, .searchBarFormButton:active, .searchBarFormButton:checked, .searchBarFormButton:not(.btn-check)+.btn:active, .searchBarFormButton:first-child:active {
+    background-color: #1D4988;
+    color: #F9F9F9;
+}
+
+.searchBarResultsContainer {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px dotted #1D4988;
+}
