@@ -1,4 +1,5 @@
 .headerContainer {
+    width: 60%;
     position: fixed;
     top: 0;
     left: 0;
@@ -7,4 +8,44 @@
     height: 12svh;
     background-color: #EBEBEB;
     border-bottom: 0.5rem solid #1D4988;
+}
+
+.headerNavLink {
+    justify-content: left;
+    padding-left: 2rem;
+}
+
+.headerLogo {
+    height: 100%;
+    max-height: 8rem;
+    max-width: 100%;
+}
+
+@media (max-width: 992px) {
+    .headerContainer {
+        width: 50%;
+    }
+
+    .headerNavLink {
+        padding-left: 1rem;
+    }
+
+    .headerLogo {
+        height: 90%;
+    }   
+}
+
+@media (max-width: 576px) {
+    .headerContainer {
+        width: 100%;
+    }   
+
+    .headerNavLink {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .headerLogo {
+        height: 100%;
+    }
 }
