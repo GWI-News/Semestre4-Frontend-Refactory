@@ -4,6 +4,9 @@ Este repositório contém o código-fonte do GWI News, um portal de notícias re
 🚀 Sobre o Projeto
 O GWI News é um portal de notícias focado em empregabilidade e educação profissional, abordando também economia, esportes e entretenimento regionais. O sistema permite a criação, edição e publicação de notícias por diferentes níveis de usuários, seguindo uma hierarquia de permissões.
 
+🔗​ URL de acesso ao Ambiente de Desenvolvimento:
+https://gwinews-development.web.app/
+
 🛠️ Tecnologias Utilizadas
 * React.js ⚛️ - Framework para a interface do usuário
 * React-Bootstrap 🎨 - Estilização eficiente e responsiva
